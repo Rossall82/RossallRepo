@@ -6644,25 +6644,7 @@ button.close {
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 15s linear infinite 0s; 
-}
-
-.cb-slideshow li div { 
-    z-index: 1000;
-    position: absolute;
-    bottom: 30px;
-    left: 0px;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    animation: titleAnimation 15s linear infinite 0s; 
-}
-.cb-slideshow li div h3 { 
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 240px;
-    padding: 0;
-    line-height: 200px; 
+    animation: imageAnimation 30s linear infinite 0s; 
 }
 
 @keyframes imageAnimation { 
@@ -6694,47 +6676,59 @@ button.close {
 
 /*Background images*/
 .cb-slideshow li:nth-child(1) span {
-    background-image: url(../Slideshow/image1.jpg);
-
+    background-image: url(../Backgrounds/207813_2644014075043_1729378985_n.jpg);
+    animation-delay: 0s;
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../Slideshow/image2.jpg);
-    animation-delay: 6s; 
+    background-image: url(../Backgrounds/224827_280812362016573_835981848_n.jpg);
+    animation-delay: 2s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../Slideshow/116540524.jpg);
-    animation-delay: 12s; 
+    background-image: url(../Backgrounds/293569_2644013995041_1094180729_n.jpg);
+    animation-delay: 4s; 
 }
-/*.cb-slideshow li:nth-child(4) span { 
-    background-image: url(../images/4.jpg);
-    animation-delay: 18s; 
-}
-.cb-slideshow li:nth-child(5) span { 
-    background-image: url(../images/5.jpg);
-    animation-delay: 24s; 
-}
-.cb-slideshow li:nth-child(6) span { 
-    background-image: url(../images/6.jpg);
-    animation-delay: 30s; 
-}*/
-
-.cb-slideshow li:nth-child(2) div { 
+.cb-slideshow li:nth-child(4) span { 
+    background-image: url(../Backgrounds/378.jpg);
     animation-delay: 6s; 
 }
-.cb-slideshow li:nth-child(3) div { 
+.cb-slideshow li:nth-child(5) span { 
+    background-image: url(../Backgrounds/394.jpg);
+    animation-delay: 8s; 
+}
+.cb-slideshow li:nth-child(6) span { 
+    background-image: url(../Backgrounds/40.jpg);
+    animation-delay: 10s; 
+}
+.cb-slideshow li:nth-child(7) span { 
+    background-image: url(../Backgrounds/5.jpg);
     animation-delay: 12s; 
 }
-/*.cb-slideshow li:nth-child(4) div { 
+.cb-slideshow li:nth-child(8) span { 
+    background-image: url(../Backgrounds/531525_297869856977490_823552522_n.jpg);
+    animation-delay: 14s; 
+}
+.cb-slideshow li:nth-child(9) span { 
+    background-image: url(../Backgrounds/556506_297869043644238_2098378066_n.jpg);
+    animation-delay: 16s; 
+}
+.cb-slideshow li:nth-child(10) span { 
+    background-image: url(../Backgrounds/600663_287049701392839_1188393955_n.jpg);
     animation-delay: 18s; 
 }
-.cb-slideshow li:nth-child(5) div { 
+.cb-slideshow li:nth-child(11) span { 
+    background-image: url(../Backgrounds/A_oyZdsCAAADAi.jpg);
+    animation-delay: 20s; 
+}
+.cb-slideshow li:nth-child(12) span { 
+    background-image: url(../Backgrounds/acous.jpg);
+    animation-delay: 22s; 
+}
+.cb-slideshow li:nth-child(13) span { 
+    background-image: url(../Backgrounds/bass.jpg);
     animation-delay: 24s; 
 }
-.cb-slideshow li:nth-child(6) div { 
-    animation-delay: 30s; 
-}*/
 
-/*Background slideshow end*/
+/*Background slideshow end
 
 
 /*# sourceMappingURL=bootstrap.css.map */

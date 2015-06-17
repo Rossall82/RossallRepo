@@ -14,6 +14,9 @@
     <!--Google font-->
     <link href='http://fonts.googleapis.com/css?family=Exo+2:400,800' rel='stylesheet' type='text/css'>
 
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
     <script src="Scripts/ImageSlideshow.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,12 +58,12 @@
         <!--Navbar-->
         <nav class="navbar navbar-inverse" style="background-color: black; background: rgba(0,0,0,0.3); ">
             <div class="container" style="text-align:center;">
-                <div class="navbar-header" style="width:40%; padding-top:15px; padding-left:15px;">
-                    <a class="navbar-brand" href="index.html"><h4>Tarsier</h4></a>
-                </div>
+                <a href="index.html" style="width: 40%; padding-top: 0px; padding-left: 0px; position:absolute;left:0px;">
+                    <img src="Images/name.png" alt="Home" style="max-width: 200px; position:absolute;left:0px;" />
+                </a>
                 <div>
-                    <ul class="nav navbar-nav navbar-center">
-                        <li style="padding-top:10px;"><a href="About.html">About</a></li>
+                    <ul class="nav navbar-nav navbar-center" style="left:40%;position:absolute">
+                        <li style="padding-top:10px; opacity: 2;"><a href="About.html">About</a></li>
                         <li style="padding-top:10px;"><a href="Media.html">Media</a></li>
                         <li style="padding-top:10px;"><a href="Gigs.html">Gigs</a></li>
                     </ul>
@@ -78,8 +81,15 @@
             </div>
         </div>
 
-        <footer><p style="font-size: 16px; padding-left:20px; padding-bottom: 40px; position: fixed; bottom: 0px; right: 15%;">(c) Tarsier 2015</p></footer>
-
+        <footer>
+            <a class="btn btn-social-icon" style="position: fixed; bottom: 0px; left: 15%;" href="http://www.facebook.com/tarsiermusic" target="_blank">
+                <i class="fa fa-facebook-square" style="font-size:40px; padding-bottom: 40px;"></i>
+            </a>
+            <a class="btn btn-social-icon btn-twitter" style="position: fixed; bottom: 0px; left: 20%;" href="http://www.twitter.com/tarsiermusic" target="_blank">
+                <i class="fa fa-twitter" style="font-size:40px; padding-bottom: 40px;"></i>
+            </a>
+            <p style="font-size: 16px; padding-left:20px; padding-bottom: 40px; position: fixed; bottom: 0px; right: 15%;">(c) Tarsier 2015</p>
+        </footer>
     </div>
 
     <br />

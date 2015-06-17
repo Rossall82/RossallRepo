@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="Content/bootstrap.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!--Google font-->
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,800' rel='stylesheet' type='text/css'>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <script src="Scripts/MyScripts.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"> 
+
+    <title>Tarsier Home</title>
+
+</head>
+
+<body>
+
+    <div class="container-fluid" style="max-width: 75%;">
+
+        <a class="navbar-brand" href="index.html" style="width: 40%; padding-top: 15px; padding-left: 15px;"><img src="Images/name.png" alt="Home" style="max-width: 200px;" /></a>
+        <!--Navbar-->
+        <nav class="navbar navbar-inverse" style="background-color: black; background: rgba(0,0,0,0.3); ">
+            <div class="container" style="text-align:center;">
+                <div>
+                    <ul class="nav navbar-nav navbar-center">
+                        <li style="padding-top:10px; opacity: 2;"><a href="About.html">About</a></li>
+                        <li style="padding-top:10px;"><a href="Media.html">Media</a></li>
+                        <li style="padding-top:10px;"><a href="Gigs.html">Gigs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar end-->
+
+        <h1>Welcome to something</h1>
+        <div class="jumbotron" style="background: none;">
+            <p>This is some text.</p>
+
+            <article id="emailShiz">
+                <p>Enter your email address below to receive the latest news!</p>
+                <article>
+                    <label style="font-size: 18px;"><u><i class="fa fa-envelope"></i>  Email address:</u></label>
+                    <input type="text" id="txtEmail" style="padding-left:20px;" />
+                    <button type="submit" class="btn btn-primary" id="btnSubmit">Submit</button>
+                </article>
+                <article id="previousEmail"></article>
+            </article>
+
+            <footer>
+                <a class="btn btn-social-icon btn-twitter" style="position: fixed; bottom: 0px; left: 15%;">
+                    <i class="fa fa-twitter" style="font-size:40px;">something in</i>
+                </a>
+            <p style="font-size: 16px; padding-left:20px; padding-bottom: 40px; position: fixed; bottom: 0px; right: 15%;">(c) Tarsier 2015</p>
+            </footer>
+
+            </div>
+        </div>
+
+    <br />
+
+</body>
+</html>

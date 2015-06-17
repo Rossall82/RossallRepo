@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="Content/bootstrap.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!--Google font-->
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,800' rel='stylesheet' type='text/css'>
+
+    <script src="Scripts/ImageSlideshow.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <title>Tarsier - Media</title>
+
+    <!--Image slideshow css-->
+    <style>
+        #slideshow {
+            position: relative;
+            height: 150px;
+        }
+
+            #slideshow IMG {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 8;
+                opacity: 0;
+            }
+
+                #slideshow IMG.active {
+                    z-index: 10;
+                    opacity: 100;
+                }
+
+                #slideshow IMG.last-active {
+                    z-index: 9;
+                    opacity: 0;
+                }
+    </style>
+
+</head>
+<body>
+
+    <div class="container-fluid" style="max-width: 75%;">
+
+        <!--Navbar-->
+        <nav class="navbar navbar-inverse" style="background-color: black; background: rgba(0,0,0,0.3); ">
+            <div class="container" style="text-align:center;">
+                <div class="navbar-header" style="width:40%; padding-top:15px; padding-left:15px;">
+                    <a class="navbar-brand" href="index.html"><h4>Tarsier</h4></a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav navbar-center">
+                        <li style="padding-top:10px;"><a href="About.html">About</a></li>
+                        <li style="padding-top:10px;"><a href="Media.html">Media</a></li>
+                        <li style="padding-top:10px;"><a href="Gigs.html">Gigs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar end-->
+
+        <!--Image slideshow-->
+        <div style="border-style: solid"><h2>Latest images</h2></div>
+        <div id="slideshow" class="jumbotron" style="border-style: double; height: 420px; background: none;">
+            <div>
+                <img src="Slideshow/Image1.jpg" alt="" class="active" style="max-height: 400px; padding: 20px;" />
+                <img src="Slideshow/Image2.jpg" alt="Nibbler" style="max-height: 400px; padding: 20px;" />
+            </div>
+        </div>
+
+        <footer><p style="font-size: 16px; padding-left:20px; padding-bottom: 40px; position: fixed; bottom: 0px; right: 15%;">(c) Tarsier 2015</p></footer>
+
+    </div>
+
+    <br />
+
+</body>
+</html>

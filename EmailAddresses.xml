@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EmailAddresses>
+  <address text="rsandford@hotmail.co.uk">
+    <name>Ross</name>
+  </address>
+  <address text="sms@hotmail.co.uk">
+    <name>Sue</name>
+  </address>
+</EmailAddresses> 
